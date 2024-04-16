@@ -7,7 +7,7 @@ int main(){
     int choice;
     while(p){                                                                    
         printf("\nSELECT THE WORDS CATEGORIES FROM GIVEN OPTION\n ");
-        printf("1. Isogram\n(A word in which no letter of the alphabet occurs more than once.)\n");
+        printf("\n1. Isogram\n(A word in which no letter of the alphabet occurs more than once.)\n");
         printf("2. Palindrome\n(A word that reads the same backwards)\n");
         printf("3. Anagram\n(A word or phrase formed by rearranging the letters of another word or phrase.)\n");
         printf("4. Lipogram\n(A written work composed of words chosen to avoid the use of one or more letters.)\n");
