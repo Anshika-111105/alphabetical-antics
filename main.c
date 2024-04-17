@@ -124,13 +124,3 @@ int main(){
     }
     return 0;
 }
-
-
-
-
-
-        
-    scanf("%d",&p);
-    }
-    return 0;
-}
