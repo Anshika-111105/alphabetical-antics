@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <string.h>
+#include <string.h>                                                                               //including string header file to utilise string function
 int main(){
     printf("\n...................WELCOME TO THE GAME 'ALPHABETICAL ANTICS'...................\n");
     printf("\n.........................presented by Anshika Saklani...................\n");
@@ -64,7 +64,7 @@ int main(){
             int len1, len2, i, j, found;
             printf("\nEnter another word that need to be checked: ");
             scanf("%s", str1);
-            len1 = strlen(input);
+            len1 = strlen(input);                    //calculating the length of the inputted string
             len2 = strlen(str1);
             if (len1 != len2) {
                 printf("%s and %s are not Anagrams\n",input,str1);
@@ -110,7 +110,7 @@ int main(){
         }else{
             char word[50];
             printf("Enter a word: ");
-            scanf("%s", word);
+            scanf("%s", word);                          //inputted word variable
             if (strcmp(input, word) == 0) {
                 printf("Words is a tautonym.\n");
                 
@@ -120,7 +120,7 @@ int main(){
             }
         }
     printf("Enter 1 to continue or 0 t exit:");
-     scanf("%d",&p);
+    scanf("%d",&p);
     }
     return 0;
 }
