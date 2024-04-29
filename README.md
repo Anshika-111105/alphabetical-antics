@@ -1,3 +1,6 @@
+![photo](display.png)    
+
+
 # ALPHABETICAL ANTICS  
 A word game designed to challenge and entertain in C  
 # RULES TO BE FOLLOWED  
