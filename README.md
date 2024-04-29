@@ -1,8 +1,9 @@
+# ALPHABETICAL ANTICS  
+A word game designed to challenge and entertain in C
+
 ![photo](display.png)    
 
 
-# ALPHABETICAL ANTICS  
-A word game designed to challenge and entertain in C  
 # RULES TO BE FOLLOWED  
 * Run the program in a C compiler or IDE.  
 * Input any word to test its properties within the chosen category.  
