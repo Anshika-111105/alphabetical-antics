@@ -63,7 +63,7 @@ int main(){
             char str1[100];
             int len1, len2, i, j, found;
             printf("\nEnter another word that need to be checked: ");
-            scanf("%s", str1);
+            gets(str1);
             len1 = strlen(input);                    //calculating the length of the inputted string
             len2 = strlen(str1);
             if (len1 != len2) {
@@ -93,7 +93,7 @@ int main(){
             int i = 0,f=0;
             char text;
             printf("Enter your text (without the letter 'e' let say): ");
-            scanf("%c", &text);
+            text=getchar();
             while (input[i] != '\0') {
                 if (input[i] != text ) {
                     f=1;
@@ -110,7 +110,7 @@ int main(){
         }else{
             char word[50];
             printf("Enter a word: ");
-            scanf("%s", word);                          //inputted word variable
+            gets(word);
             if (strcmp(input, word) == 0) {
                 printf("Words is a tautonym.\n");
                 
