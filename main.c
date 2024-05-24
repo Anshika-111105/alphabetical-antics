@@ -99,7 +99,7 @@ int main(){
                     f=1;
                     
                 }
-            i++;
+            i++;                                  //iteration variable
                 
             }
             if(!(f)){
